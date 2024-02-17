@@ -1,0 +1,212 @@
+body {
+    background: linear-gradient(315deg, transparent 75%, #d0d0d0 0) -10px 0,
+                linear-gradient(45deg, transparent 75%, #d0d0d0 0) -10px 0,
+                linear-gradient(135deg, #acacac 50%, transparent 0) 0 0,
+                linear-gradient(45deg, #808080 50%, #666666 0) 0 0 #666666;
+    background-size: 20px 20px;
+    font-family:cursive ;
+
+  }
+
+
+
+
+.NavToDiffrentPage
+{
+    background-color:#f1efefda ;
+
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    width: 100%;
+    gap: 100px;
+    margin-top: auto;
+    position: fixed;
+  top: 0;
+  left: 0;
+
+}
+
+.NavToDiffrentPage li
+{
+
+    margin-right: 50px;
+    border-radius: 30px;
+    justify-content: center;
+    font-size: 30px;
+    border-color: black;
+    border-style:double;
+
+
+}
+.NavToDiffrentPage li:hover
+{
+
+   background-color: #3723e79c;
+
+
+
+
+
+}
+
+.Info {
+    display: inline-block;
+    background-color: #f1efefda;
+    padding: 20px;
+    border-radius: 40px;
+    border-style: double;
+    border-color: black;
+    border-width: 10px;
+    margin-top: 200px;
+
+
+
+}
+
+.HomePage
+{
+    text-align: center;
+
+}
+ #AboutMe
+ {
+  font-size:20px ;
+ }
+ #AboutMe h2
+ {
+  font-size:30px ;
+ }
+
+ .card 
+{
+width: 200px;
+height: 320px;
+background-color:#f1efefda;
+border-color: black;
+border-radius: 40px;
+margin: 50px;
+margin-top: 200px;
+display: flex;
+  align-items: end;
+  justify-content: center;
+  background-position: center;
+background-size:cover;
+font-size: 20px;
+font-weight: bolder;
+
+}
+
+.cards_shape
+{
+display:flex;
+flex-wrap: wrap;
+} 
+.card img
+{
+  opacity: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+#Card_1
+{
+  background-image: url(./MyIcon_1.png);
+  
+}
+#Card_2
+{
+  background-image: url(./MyIcon_2.png);
+}
+#Card_3
+{
+  background-image: url(./MyIcon_9.png);
+}
+#Card_4
+{
+  background-image: url(./MyIcon_4.png);
+}
+#Card_5
+{
+  background-image: url(./MyIcon_5.png);
+  
+}
+#Card_6
+{
+  background-image: url(./MyIcon_8.png);
+}
+#Card_7
+{
+  background-image: url(./MyIcon_6.png);
+}
+#Card_8
+{
+  background-image: url(./MyIcon_7.png);
+}
+ .ContactList img
+ {
+   width: 100px;
+   height: 100px;
+    list-style-type: none;
+    justify-content: center;
+
+ }
+ .ContactList 
+ {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 80px;
+
+ }
+ footer h2
+ {
+  display: inline-block;
+  background-color: #f1efefda;
+  padding: 20px;
+  border-radius: 40px;
+  border-style: double;
+  border-color: black;
+  border-width: 10px;
+  margin-top: 200px;
+ }
+
+ footer
+ {     text-align: center;
+
+ }
+ @media only screen and (max-width: 700px) {
+  .NavToDiffrentPage {
+      gap: 20px; /* Reduce gap for mobile */
+  }
+
+  .NavToDiffrentPage li {
+      margin-right: 0;
+      margin-bottom: 20px; /* Add bottom margin for mobile */
+      font-size: 20px; /* Reduce font size for mobile */
+  }
+
+  .Info {
+      padding: 10px; /* Reduce padding for mobile */
+      margin-top: 100px; /* Adjust top margin for mobile */
+  }
+
+  .card {
+      width: 150px; /* Adjust card width for mobile */
+      height: 240px; /* Adjust card height for mobile */
+      margin: 20px; /* Adjust margin for mobile */
+      margin-top: 100px; /* Adjust top margin for mobile */
+      font-size: 16px; /* Reduce font size for mobile */
+  }
+
+  .ContactList img {
+      width: 50px; /* Reduce image size for mobile */
+      height: 50px; /* Reduce image size for mobile */
+  }
+
+  footer h2 {
+      margin-top: 20px; /* Adjust top margin for mobile */
+  }
+}
+ 
